@@ -1,0 +1,16 @@
+# Dependency directory
+node_modules
+
+# Secret
+*.pub
+*.pem
+*.ppk
+
+# Log
+*.log
+
+# Generated files
+/build
+
+# Others
+.DS_Store
