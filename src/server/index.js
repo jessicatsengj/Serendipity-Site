@@ -8,6 +8,7 @@ import config from '../../configs/webpack.config';
 let app = express();
 
 // livereload
+// test
 let compiler = webpack(config);
 app.use(webpackDevMiddleware(compiler, {
   noInfo: true,
