@@ -1,0 +1,54 @@
+/** {
+  border: 1px solid green;
+}*/
+
+/*
+@font-face {
+    font-family: 'Concert One';
+    src: url('https://fonts.googleapis.com/css?family=Kalam');
+}
+*/
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+.navigation{
+  background-color: rgba(0, 0, 0, 0.9);
+  position: relative;
+  height: 60px;
+  /*font-family: 'Kalam', cursive;*/
+}
+
+nav{
+  display: inline-block;
+  width: 450px;
+  /*margin-left: auto;*/
+  position: absolute;
+  right:0;
+}
+
+img{
+  display: inline-block;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.nav_item{
+  font-family: 'Kalam', cursive;
+  color: white;
+  display: inline-block;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  height: 30px;
+}
+
+.myLink{
+  color: white;
+  text-decoration: none;
+}

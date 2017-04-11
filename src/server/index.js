@@ -1,3 +1,4 @@
+import path from 'path';
 import express from 'express';
 import webpack from 'webpack';
 import webpackDevMiddleware from 'webpack-dev-middleware';
@@ -19,12 +20,16 @@ app.use(webpackHotMiddleware(compiler));
 // logging
 app.use(morgan('dev'));
 
+// serve static files
+app.use(express.static(path.join(__dirname, '../public')));
+
 // render
 app.get('/*', (req, res, next) => {
   res.send(`<!doctype html>
 <html lang="utf-8">
 <head>
   <title>React-Starter</title>
+  <link rel="stylesheet" type="text/css" href="/css/app.css">
 </head>
 <body>
   <div id="root"></div>
