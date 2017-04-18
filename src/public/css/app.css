@@ -1,54 +1,124 @@
-/** {
-  border: 1px solid green;
+
+/*all*/
+
+/**{
+  border: solid 1px green;
 }*/
 
-/*
-@font-face {
-    font-family: 'Concert One';
-    src: url('https://fonts.googleapis.com/css?family=Kalam');
-}
-*/
 @import url('https://fonts.googleapis.com/css?family=Kalam');
 
 html, body{
   padding: 0;
   margin: 0;
 }
-
-.navigation{
-  background-color: rgba(0, 0, 0, 0.9);
-  position: relative;
-  height: 60px;
-  /*font-family: 'Kalam', cursive;*/
+body{
+  background-image: url('/Image/forest.png');
+  background-position: center top;
+  background-attachment: fixed;
+}
+.content{
+  margin-top: 100px;
+}
+.space{
+  height: 100px;
 }
 
-nav{
-  display: inline-block;
-  width: 450px;
-  /*margin-left: auto;*/
-  position: absolute;
-  right:0;
+
+/*navigation*/
+.ts .menu{
+  box-shadow: 0px 0px 0px 0 #000;
+  padding-top: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+.ts.menu .item:first-child, .ts.menu .item:not(:first-child) {
+  border-right: none;
+}
+.ts.menu.black {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-img{
+.logo{
   display: inline-block;
   height: 40px;
   margin-top: 10px;
   margin-left: 10px;
 }
-
 .nav_item{
-  font-family: 'Kalam', cursive;
   color: white;
   display: inline-block;
   padding-bottom: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 30px;
+  text-align: center;
   height: 30px;
+  width: 100px;
 }
-
 .myLink{
   color: white;
   text-decoration: none;
+  font-family: 'Kalam', cursive;
 }
+.myOtherLink{
+  display: block;
+}
+.myLink:hover{
+  color: #DAEBDD;
+}
+.selected{
+  color: #93AC98;
+}
+
+
+/*article block*/
+.title{
+  font-size: 30px;
+  font-family: 'Kalam', cursive;
+  border-bottom: solid 2px;
+  line-height: 40px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.white{
+  color: #fff;
+  border-color: #fff;
+}
+.dark_green{
+  color: #124657;
+  border-color: #124657;
+}
+.articleLink{
+  color: #fff;
+  text-decoration: none;padding-left: 10px;
+}
+.ts.list{
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 450px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+/* overwrite tocas */
+.ts.container:not(.narrow) {
+   margin: 0px !important;
+}
+
+/*Novels*/
+.novel_block{
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  width: 450px;
+}
+.ts.stackable.two.cards{
+  padding: 10px;
+}
+.novel_image{
+  border: solid 2px #000;
+}
+
+/*Projects*/
+/*color: #93AC98*/

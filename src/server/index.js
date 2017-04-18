@@ -29,6 +29,7 @@ app.get('/*', (req, res, next) => {
 <html lang="utf-8">
 <head>
   <title>React-Starter</title>
+  <link rel="stylesheet" href="//cdn.rawgit.com/TeaMeow/TocasUI/master/dist/tocas.min.css">
   <link rel="stylesheet" type="text/css" href="/css/app.css">
 </head>
 <body>

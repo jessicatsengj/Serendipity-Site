@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import Navi from './Navi';
+import PageLayout from './PageLayout';
 
 class PortfolioPage extends Component {
   render() {
     return (
-      <div>
-        <Navi />
-        Portfolio
-      </div>
+      <PageLayout>
+        Portfolio Page
+      </PageLayout>
     )
   }
 }

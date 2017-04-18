@@ -1,28 +1,12 @@
 import React, { Component } from 'react';
-import Navi from './Navi';
+import PageLayout from './PageLayout';
 
 class AboutPage extends Component {
   render() {
     return (
-      <div>
-        <Navi />
-        <p>About Page</p>
-        <p>About Page</p>
-        <p>About Page</p>
-        <p>About Page</p>
-        <p>About Page</p>
-        <p>About Page</p>
-        <p>About Page</p>
-        <p>About Page</p>
-        <p>About Page</p>
-        <p>About Page</p>
-        <p>About Page</p>
-        <p>About Page</p>
-        <p>About Page</p>
-        <p>About Page</p>
-        <p>About Page</p>
-        <p>About Page</p>
-      </div>
+      <PageLayout>
+        About Page
+      </PageLayout>
     );
   }
 }

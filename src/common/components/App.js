@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  Link,
+  NavLink
 } from 'react-router-dom';
 import HomePage from './HomePage';
 import AboutPage from './AboutPage';
