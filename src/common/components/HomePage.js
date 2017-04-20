@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 // import Navi from './Navi';
 import PageLayout from './PageLayout';
-import Articles from './Articles';
 import Button from 'react-tocas/lib/Button';
-import Novels from './Novels';
+import Projects from './Projects';
 
 class HomePage extends Component {
   render() {
@@ -11,17 +10,19 @@ class HomePage extends Component {
       <PageLayout>
         <div className="row">
           <div className="one wide column" />
-          <div className="three wide column">
-            <Articles />
+          <div className="five wide column">
+            <div className="space">
+              HAHAHA
+            </div>
           </div>
-          <div className="six wide column">
-            <div className="content">
-              <Novels />
+          <div className="four wide column">
+            <div className="space">
+              HAHA
             </div>
           </div>
           <div className="five wide column">
-            <div className="content">
-              HomePage
+            <div className="space">
+              <Projects />
             </div>
           </div>
           <div className="one wide column" />

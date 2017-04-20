@@ -8,7 +8,6 @@ import {
 import HomePage from './HomePage';
 import AboutPage from './AboutPage';
 import WritingPage from './WritingPage';
-import PostPage from './PostPage';
 import PortfolioPage from './PortfolioPage';
 
 class App extends Component {
@@ -19,7 +18,6 @@ class App extends Component {
           <Route exact path="/" component={HomePage}/>
           <Route path="/about" component={AboutPage}/>
           <Route path="/writings" component={WritingPage}/>
-          <Route path="/posts" component={PostPage}/>
           <Route path="/portfolio" component={PortfolioPage}/>
         </div>
       </Router>

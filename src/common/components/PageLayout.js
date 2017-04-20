@@ -8,7 +8,6 @@ class PageLayout extends Component {
     return (
       <div className="ts grid">
         <Navi />
-        <div className="space"></div>
           {children}
         <div className="row">
           {/* <Footer /> */}

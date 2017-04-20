@@ -16,15 +16,24 @@ body{
   background-position: center top;
   background-attachment: fixed;
 }
-.content{
+/*.content{
+  margin-top: 100px;
+}*/
+.space{
   margin-top: 100px;
 }
-.space{
-  height: 100px;
+.space2{
+  margin-top: 50px;
 }
 
-
 /*navigation*/
+.nav{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
 .ts .menu{
   box-shadow: 0px 0px 0px 0 #000;
   padding-top: 8px;
@@ -36,7 +45,7 @@ body{
   border-right: none;
 }
 .ts.menu.black {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 1);
 }
 
 .logo{
@@ -76,7 +85,7 @@ body{
   border-bottom: solid 2px;
   line-height: 40px;
   padding-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -107,18 +116,56 @@ body{
 
 /*Novels*/
 .novel_block{
-  background-color: rgba(255, 255, 255, 0.7);
-  padding-left: 15px;
-  padding-right: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
-  width: 450px;
+  /*width: 300px;*/
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.ts.card{
+  display: inline-block;
+  box-shadow: 0px 0px 10px #888888;
 }
 .ts.stackable.two.cards{
   padding: 10px;
 }
 .novel_image{
-  border: solid 2px #000;
+  /*border: solid 2px #000;*/
 }
 
-/*Projects*/
-/*color: #93AC98*/
+/*Projects, Articles*/
+.content_block{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+.green_bg{
+  background-color: rgba(147, 172, 152, 0.7);
+}
+.white_bg{
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.black_bg{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.ts.items>.item>.content>.white{
+  color: #fff;
+}
+.ts.divided.items{
+  padding: 10px;
+}
+.ts.items>.item>.image:not(.ts):not(.flexible){
+  width: 150px;
+}
+.ts.divided.items>.dark_green{
+  border-color: #124657;
+}
+.type{
+  color: #fff;
+  background-color: #124657;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

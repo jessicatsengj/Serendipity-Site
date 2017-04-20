@@ -15,25 +15,11 @@ class Navi extends Component {
             <div className="item navi_item"><NavLink className="myLink myOtherLink" activeClassName="selected" to="/about" >ABOUT</NavLink></div>
             <div className="item navi_item"><NavLink className="myLink myOtherLink" activeClassName="selected" to="/portfolio" >PORTFOLIO</NavLink></div>
             <div className="item navi_item"><NavLink className="myLink myOtherLink" activeClassName="selected" to="/writings" >WRITINGS</NavLink></div>
-            <div className="item navi_item"><NavLink className="myLink myOtherLink" activeClassName="selected" to="/posts" >POSTS</NavLink></div>
           </div>
         </div>
       </div>
     );
   }
-  // render() {
-  //   return (
-  //     <div className="navigation">
-  //       <NavLink className="myLink" to="/"><img className="logo" src="/Image/logo-white.png"></img></NavLink>
-  //       <nav>
-  //         <div className="nav_item"><NavLink className="myLink myOtherLink" activeClassName="selected" to="/about" >ABOUT</NavLink> </div>
-  //         <div className="nav_item"><NavLink className="myLink myOtherLink" activeClassName="selected" to="/portfolio" >PORTFOLIO</NavLink> </div>
-  //         <div className="nav_item"><NavLink className="myLink myOtherLink" activeClassName="selected" to="/writings" >WRITINGS</NavLink> </div>
-  //         <div className="nav_item"><NavLink className="myLink myOtherLink" activeClassName="selected" to="/posts" >POSTS</NavLink> </div>
-  //       </nav>
-  //     </div>
-  //   );
-  // }
 }
 
 export default Navi;
