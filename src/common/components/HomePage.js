@@ -22,7 +22,7 @@ class HomePage extends Component {
           </div>
           <div className="five wide column">
             <div className="space">
-              <Projects />
+              HAHAHA
             </div>
           </div>
           <div className="one wide column" />

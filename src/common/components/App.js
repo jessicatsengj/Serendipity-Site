@@ -20,6 +20,7 @@ class App extends Component {
           <Route path="/writings" component={WritingPage}/>
           <Route path="/portfolio" component={PortfolioPage}/>
         </div>
+
       </Router>
     );
   }

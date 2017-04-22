@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PageLayout from './PageLayout';
-import MyCards from './MyCards';
+import MyCards from './elements/MyCards';
 
 class WritingPage extends Component {
   render() {
@@ -40,8 +40,8 @@ class WritingPage extends Component {
                 <div className="ts stackable four cards">
                   <MyCards cardImage = "/Image/last_night.jpg" cardHeader = "歐洲旅遊" cardDescription = "HAHAHA"/>
                   <MyCards cardImage = "/Image/last_night.jpg" cardHeader = "中國旅遊" cardDescription = "HAHAHA"/>
-                  <MyCards cardImage = "/Image/last_night.jpg" cardHeader = "圖文創作" cardDescription = "HAHAHA"/>
-                  <MyCards cardImage = "/Image/last_night.jpg" cardHeader = "其他文章" cardDescription = "HAHAHA"/>
+                  <MyCards cardImage = "/Image/post.jpg" cardHeader = "圖文創作" cardDescription = "HAHAHA"/>
+                  <MyCards cardImage = "/Image/others.jpg" cardHeader = "其他文章" cardDescription = "HAHAHA"/>
                 </div>
               </div>
             </div>

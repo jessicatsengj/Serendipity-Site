@@ -30,13 +30,19 @@ body{
 .nav{
   position: fixed;
   width: 100%;
+}
+.navi{
   top: 0;
   left: 0;
   z-index: 10;
 }
+.port_navi{
+  top: 55px;
+  left: 0;
+  z-index: 5;
+}
 .ts .menu{
   box-shadow: 0px 0px 0px 0 #000;
-  padding-top: 8px;
   padding-left: 10px;
   padding-right: 10px;
   border: none;
@@ -44,10 +50,15 @@ body{
 .ts.menu .item:first-child, .ts.menu .item:not(:first-child) {
   border-right: none;
 }
+.ts.menu .item{
+  padding: 5px;
+}
 .ts.menu.black {
   background-color: rgba(0, 0, 0, 1);
 }
-
+.ts.menu.green{
+  background-color: rgba(147, 172, 152, 0.7);
+}
 .logo{
   display: inline-block;
   height: 40px;
@@ -69,12 +80,27 @@ body{
 }
 .myOtherLink{
   display: block;
+  margin-left: 15px;
+  padding-top: 15px;
 }
 .myLink:hover{
   color: #DAEBDD;
 }
 .selected{
   color: #93AC98;
+}
+.port_selected{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.portLink{
+  color: #124657;
+  border: solid 1px #124657;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: 'Kalam', cursive;
+  padding: 5px;
+  width: 80px;
+  text-align: center;
 }
 
 
@@ -133,12 +159,13 @@ body{
   /*border: solid 2px #000;*/
 }
 
-/*Projects, Articles*/
+/*ListCards*/
 .content_block{
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 15px;
   border-radius: 10px;
+  padding-top: 15px;
 }
 .green_bg{
   background-color: rgba(147, 172, 152, 0.7);
@@ -158,12 +185,15 @@ body{
 .ts.items>.item>.image:not(.ts):not(.flexible){
   width: 150px;
 }
+img.project_img{
+  width: 150px;
+}
 .ts.divided.items>.dark_green{
   border-color: #124657;
 }
 .type{
   color: #fff;
-  background-color: #124657;
+  border: solid 1px #fff;
   border-radius: 20px;
   padding: 5px;
   padding-left: 10px;
