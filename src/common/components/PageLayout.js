@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navi from './Navi';
+import Footer from './Footer';
 
 class PageLayout extends Component {
   render() {
@@ -9,9 +10,9 @@ class PageLayout extends Component {
       <div className="ts grid">
         <Navi />
           {children}
-        <div className="row">
-          {/* <Footer /> */}
-        </div>
+        {/* <div className="row"> */}
+          <Footer />
+        {/* </div> */}
       </div>
     );
   }
